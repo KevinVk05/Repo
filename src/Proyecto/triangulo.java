@@ -24,6 +24,8 @@ public class triangulo {
 		lado1=pedirLado();
 		System.out.println("El volumen de un cubo es: "+volumenCubo(lado1));
 		
+		lado1=pedirLado();
+		System.out.println("El area del cubo es: "+ areaCubo(lado1));
 		
 	}
 	public static int pedirbase() {
@@ -63,5 +65,8 @@ public class triangulo {
 	}
 	public static double volumenCubo(double lado) {
 		return lado*lado*lado;
+	}
+	public static double areaCubo(double lado) {
+		return 6*lado*lado;
 	}
 	}
