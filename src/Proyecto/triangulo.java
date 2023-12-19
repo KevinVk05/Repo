@@ -21,6 +21,11 @@ public class triangulo {
 		System.out.println("Introduce el radio del cilindro");
 		radio=in.nextDouble();
 		System.out.println("El area de el cilindro es: "+areaCilindro(radio, altura));
+		
+		System.out.println("Introduce dos lados del rectángulo");
+		double lado1=in.nextDouble();
+		double lado2=in.nextDouble();
+		System.out.println("El area del rectángulo es: "+areaRectangulo(lado1,lado2));
 	}
 	
 	public static double areaTriangulo(int base, int altura) {
@@ -35,5 +40,7 @@ public class triangulo {
 	public static double areaCilindro(double radio,int altura) {
 		return 3.14*(radio*radio)*altura;
 	}
-
+	public static double areaRectangulo(double lado1,double lado2) {
+		return lado1*lado2;
+	}
 	}
