@@ -16,6 +16,11 @@ public class triangulo {
 		double radio=in.nextDouble();
 		System.out.println("El area de la circunferencia es: "+areaCircun(radio));
 		System.out.println("El perimetro de la circunferencia es: "+perimetroCircun(radio));
+		System.out.println("Intro la altura");
+		altura=in.nextInt();
+		System.out.println("Introduce el radio del cilindro");
+		radio=in.nextDouble();
+		System.out.println("El area de el cilindro es: "+areaCilindro(radio, altura));
 	}
 	
 	public static double areaTriangulo(int base, int altura) {
@@ -26,6 +31,9 @@ public class triangulo {
 	}
 	public static double perimetroCircun(double radio) {
 		return 2*3.14*radio;
+	}
+	public static double areaCilindro(double radio,int altura) {
+		return 3.14*(radio*radio)*altura;
 	}
 
 	}
