@@ -27,6 +27,7 @@ public class triangulo {
 		lado1=pedirLado();
 		System.out.println("El area del cubo es: "+ areaCubo(lado1));
 		System.out.println("Fin del trabajo");
+		//no fin
 	}
 	public static int pedirbase() {
 		System.out.println("Intro la base");
